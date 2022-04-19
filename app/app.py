@@ -52,7 +52,7 @@ def _check_server_status(url_path):
     return server_down if server_code == 404 else server_up
 
 
-image = Image.open('banner.JPG')
+image = Image.open('./banner.JPG')
 
 st.image(image,
       use_column_width=True,)
