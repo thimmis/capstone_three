@@ -27,19 +27,7 @@ text_desc ="""
 """
 
 placeholder_text = """
-    Patient was identified, then taken into the operating room, where after 
-    induction of appropriate anesthesia, his abdomen was prepped with Betadine 
-    solution and draped in a sterile fashion. The wound opening where it was 
-    draining was explored using a curette. The extent of the wound marked with a 
-    marking pen and using the Bovie cautery, the abscess was opened and drained. 
-    I then noted that there was a significant amount of undermining. These 
-    margins were marked with a marking pen, excised with Bovie cautery; the 
-    curette was used to remove the necrotic fascia. The wound was irrigated; 
-    cultures sent prior to irrigation and after achievement of excellent 
-    hemostasis, the wound was packed with antibiotic-soaked gauze. A dressing 
-    was applied. The finished wound size was 9.0 x 5.3 x 5.2 cm in size. 
-    Patient tolerated the procedure well. Dressing was applied, and he was 
-    taken to recovery room in stable condition.
+    Patient was identified, then taken into the operating room, where after induction of appropriate anesthesia, his abdomen was prepped with Betadine solution and draped in a sterile fashion. The wound opening where it was draining was explored using a curette. The extent of the wound marked with a marking pen and using the Bovie cautery, the abscess was opened and drained. I then noted that there was a significant amount of undermining. These margins were marked with a marking pen, excised with Bovie cautery; the curette was used to remove the necrotic fascia. The wound was irrigated; cultures sent prior to irrigation and after achievement of excellent hemostasis, the wound was packed with antibiotic-soaked gauze. A dressing was applied. The finished wound size was 9.0 x 5.3 x 5.2 cm in size. Patient tolerated the procedure well. Dressing was applied, and he was taken to recovery room in stable condition.
 """
 
 ##helper funcs
