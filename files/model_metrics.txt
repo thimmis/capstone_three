@@ -1,0 +1,2 @@
+T5-small: Rouge-L score of 16.38
+T5 Fine-Tuned: Rouge-L score of 15.55
