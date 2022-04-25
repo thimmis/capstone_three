@@ -1,7 +1,7 @@
 
 import streamlit as st
 import requests
-from PIL import Image
+#from PIL import Image
 
 
 st.set_page_config(
@@ -40,8 +40,8 @@ def _check_server_status(url_path):
     return server_down if server_code == 404 else server_up
 
 
-image = Image.open(requests.get('https://github.com/thimmis/capstone_three/blob/c16df8de708b313524f76cce9fbd4f1cc309e413/app/banner.JPG', stream=True))
-st.image(image,use_column_width=True)
+#image = Image.open(requests.get('https://github.com/thimmis/capstone_three/blob/c16df8de708b313524f76cce9fbd4f1cc309e413/app/banner.JPG', stream=True).raw)
+#st.image(image,use_column_width=True)
 
 
 def main():
