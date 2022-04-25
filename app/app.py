@@ -40,9 +40,9 @@ def _check_server_status(url_path):
     return server_down if server_code == 404 else server_up
 
 
-image = Image.open('banner.JPG')
-
+image = Image.open(requests.get('https://github.com/thimmis/capstone_three/blob/c16df8de708b313524f76cce9fbd4f1cc309e413/app/banner.JPG', stream=True).raw)
 st.image(image,use_column_width=True)
+
 
 def main():
 
