@@ -46,7 +46,7 @@ def _check_server_status(url_path):
 
 def main():
 
-    base_url = 'https://d57228160c36646ecb3a48f9482fb601a.clg07azjl.paperspacegradient.com/'
+    base_url = 'https://dd6d819b7605a4e2c9b3fd16ad9ece5ff.clg07azjl.paperspacegradient.com/'
     sum_url = base_url+'v1/models/t5-summarizer:summarize'
     server_status = base_url+'healthcheck'
 
