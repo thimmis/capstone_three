@@ -40,13 +40,13 @@ def _check_server_status(url_path):
     return server_down if server_code == 404 else server_up
 
 
-#image = Image.open('./banner.JPG')
+image = Image.open('banner.JPG')
 
-#st.image(image,use_column_width=True)
+st.image(image,use_column_width=True)
 
 def main():
 
-    base_url = 'https://d719f3c297d8a4edb89d7f67aebe14091.clg07azjl.paperspacegradient.com/'
+    base_url = 'https://d57228160c36646ecb3a48f9482fb601a.clg07azjl.paperspacegradient.com/'
     sum_url = base_url+'v1/models/t5-summarizer:summarize'
     server_status = base_url+'healthcheck'
 
